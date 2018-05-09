@@ -24,7 +24,7 @@ export async function fight(fighter, improvedFighter , ...points){
         }
     }
     
-    if ( (fighter.health > 0) && (ImprovedFighter.health > 0) ) {
+    if ( (fighter.health > 0) && (improvedFighter.health > 0) ) {
         console.log('This round ended in a draw')
     }
 }

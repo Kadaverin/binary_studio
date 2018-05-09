@@ -1,6 +1,6 @@
 // Create class ImprovedFighter
 
-class ImprovedFighter extends Fighter{
+export class ImprovedFighter extends Fighter{
     
     constructor(name, health, power){
         super(name, health, power)

@@ -1,6 +1,6 @@
 // create async function fight
 
-async function fight(fighter, improvedFighter , ...points){
+export async function fight(fighter, improvedFighter , ...points){
 
     for ( index in  points ) {
 

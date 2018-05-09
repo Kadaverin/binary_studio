@@ -1,6 +1,9 @@
 import "babel-polyfill";
+<<<<<<< HEAD
 import { Fighter } from "./fighter.js";
 import { ImprovedFighter } from "./improvedFighter.js";
+=======
+>>>>>>> fdceb5121951b51f45eb5be93bbc3f6a84a7bc33
 import { fight } from "./fight.js";
 
 // create two instances

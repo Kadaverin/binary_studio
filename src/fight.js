@@ -2,7 +2,7 @@
 
 export async function fight(fighter, improvedFighter , ...points){
 
-    for ( index in  points ) {
+    for ( let index in  points ) {
 
         if (index % 2 == 0){
             improvedFighter.doubleHit(fighter , points[index])

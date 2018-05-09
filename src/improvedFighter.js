@@ -1,4 +1,5 @@
 // Create class ImprovedFighter
+import { Fighter } from "./fighter.js";
 
 export class ImprovedFighter extends Fighter{
     

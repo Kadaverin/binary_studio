@@ -8,8 +8,9 @@ export class Fighter{
         this.power = power
     }
 
-    setDamage(demage){
-        console.log( this.health -= demage )
+    setDamage(damage){
+        this.health -= damage 
+        console.log(`${this.name}'s health : ${this.helath}`)
     }
 
     hit(enemy, point){
